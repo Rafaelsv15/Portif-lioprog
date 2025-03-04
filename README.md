@@ -84,4 +84,7 @@ footer {
 .dark-mode {
     background-color: #222;
     color: white;
-}
+}// Alternar entre modo claro e escuro
+document.getElementById("modo-escuro").addEventListener("click", function () {
+    document.body.classList.toggle("dark-mode");
+});
